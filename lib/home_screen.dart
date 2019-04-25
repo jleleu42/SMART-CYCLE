@@ -112,6 +112,7 @@ class HomeScreenState extends State<HomeScreen> {
     print(log);
     if(log==1){
       return MaterialApp(
+        debugShowCheckedModeBanner:false,
         home: Scaffold(
             appBar: AppBar(
               title: const Text('Smart Cycle'),
@@ -190,6 +191,7 @@ class HomeScreenState extends State<HomeScreen> {
 
     //if(log == 2){
       return MaterialApp(
+        debugShowCheckedModeBanner:false,
         home: Scaffold(
             appBar: AppBar(
               title: const Text('Smart Cycle'),
